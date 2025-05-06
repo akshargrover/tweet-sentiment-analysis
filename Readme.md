@@ -33,8 +33,13 @@ This will train the model on the training dataset and evaluate it on the test da
 ## Data
 The dataset used for training and testing consists of tweets labeled as positive or negative sentiment. The data is split into training and test sets to evaluate the model's performance.
 
-- **Training Data**: Contains tweets used to train the model.
-- **Test Data**: Contains tweets used to evaluate the model's accuracy.
+- **Training Data**: Contains tweets used to train the model. The training dataset is located in the `twitter_training.csv` file.
+- **Test Data**: Contains tweets used to evaluate the model's accuracy. The test dataset is located in the `twitter_validation.csv` file.
+
+### Dataset Details
+- The dataset includes a variety of tweets collected from Twitter, ensuring a diverse representation of sentiments.
+- Each tweet is labeled as either positive,negative, irrelevant and natural allowing the model to learn from all classes.
+- The data is preprocessed to remove noise and irrelevant information, enhancing the model's performance.
 
 ## Model Training
 The model is built using the following steps:
