@@ -16,8 +16,8 @@ This project implements a sentiment analysis model to classify tweets as positiv
 To set up the project, clone the repository and install the required packages:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/akshargrover/tweet-sentiment-analysis
+cd tweet-sentiment-analysis
 pip install -r requirements.txt
 ```
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 To run the sentiment analysis model, execute the following command in your terminal:
 
 ```bash
-python sentiment_analysis.py
+python twitter-sentiment-analysis.ipynb
 ```
 
 This will train the model on the training dataset and evaluate it on the test dataset.
